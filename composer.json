@@ -1,0 +1,34 @@
+{
+    "name": "eoinok/basic-scaffold-template",
+    "description": "a basic scaffold template designed to work with Infyom Laravel Generator.",
+    "keywords": [
+        "infyom",
+        "laravel",
+        "generator",
+        "scaffold",
+        "templates",
+        "bootstrap",
+        "bootstrap5"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eoin O'Kennedy",
+            "email": "eokenned@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "eoinok\\basic-template\\": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
+    }
+}

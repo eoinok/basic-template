@@ -1,0 +1,9 @@
+rsync -r /cygdrive/c/work/ remotehost:/home/user/work
+
+rsync -rv /cygdrive/c/photobackup/* root@192.168.8.105:/mnt/hdd/photobackup
+
+rsync -rv - /cygdrive/c/photobackup/* root@192.168.8.105:/mnt/hdd/photobackup
+
+rsync -rv /cygdrive/c/photobackup/* eoinok@192.168.8.105:/mnt/hdd/photobackup
+
+rsync -rv - /cygdrive/c/photobackup/* root@192.168.8.105:mnt/hdd/photobackup
