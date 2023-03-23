@@ -1,2 +1,2 @@
 
-        @include('basic-scaffold-template::common.paginate', ['records' => $$MODEL_NAME_PLURAL_CAMEL$])
+        @include('basic-template::common.paginate', ['records' => $$MODEL_NAME_PLURAL_CAMEL$])

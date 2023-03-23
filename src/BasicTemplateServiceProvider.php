@@ -13,16 +13,16 @@ class BasicScaffoldTemplateServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadViewsFrom(__DIR__.'/../views', 'basic-scaffold-template');
+        $this->loadViewsFrom(__DIR__.'/../views', 'basic-template');
 		
 		
         
         $this->publishes([
-            __DIR__ . '/../views' => base_path('resources/views/vendor/basic-scaffold-template')
+            __DIR__ . '/../views' => base_path('resources/views/vendor/basic-template')
         ]);
 
-        Paginator::defaultView('basic-scaffold-template::common.paginator');
-        Paginator::defaultSimpleView('basic-scaffold-template::common.simple_paginator');
+        Paginator::defaultView('basic-template::common.paginator');
+        Paginator::defaultSimpleView('basic-template::common.simple_paginator');
     }
 
     /**
