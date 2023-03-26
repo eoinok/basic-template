@@ -1,10 +1,10 @@
 <?php
 
-namespace eoinok\basic-scaffold-template;
+namespace eoinok\basic-template;
 
 use Illuminate\Support\ServiceProvider;
 
-class BasicScaffoldTemplateServiceProvider extends ServiceProvider
+class BasicTemplateServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
