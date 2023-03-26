@@ -48,10 +48,13 @@
         ]
     },
     "extra": {
-        "laravel": {
-            "dont-discover": []
-        }
-    },
+                "laravel": {
+                    "providers": [
+                        "eoinok\\basic-template\\src\\BasicTemplateServiceProvider"
+                    ],
+                    "dont-discover": []
+                }
+            },
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
