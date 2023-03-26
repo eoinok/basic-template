@@ -13,6 +13,9 @@ class BasicTemplateServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        parent::boot();
+        dd("Im loaded");
+        print("Im loaded");
         $this->loadViewsFrom(__DIR__.'/../views', 'basic-template');
 		
 		
