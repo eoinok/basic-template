@@ -13,12 +13,12 @@ class BasicTemplateServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadViewsFrom(__DIR__.'/../views', 'basic-template');
+        $this->loadViewsFrom(__DIR__.'/../views', 'basictemplate');
 		
 		
         
         $this->publishes([
-            __DIR__ . '/../views' => base_path('resources/views/vendor/basic-template')
+            __DIR__ . '/../views' => base_path('resources/views/vendor/basictemplate')
         ]);
 
         Paginator::defaultView('basictemplate::common.paginator');
