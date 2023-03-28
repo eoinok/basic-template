@@ -21,8 +21,8 @@ class BasicTemplateServiceProvider extends ServiceProvider
             __DIR__ . '/../views' => base_path('resources/views/vendor/basic-template')
         ]);
 
-        Paginator::defaultView('basic-template::common.paginator');
-        Paginator::defaultSimpleView('basic-template::common.simple_paginator');
+        Paginator::defaultView('basictemplate::common.paginator');
+        Paginator::defaultSimpleView('basictemplate::common.simple_paginator');
     }
 
     /**
