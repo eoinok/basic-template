@@ -22,13 +22,13 @@
     },
     "autoload": {
         "psr-4": {
-            "eoinok\\basic-template\\": "src/"
+            "eoinok\\basictemplate\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "\\eoinok\\basic-template\\BasicTemplateServiceProvider"
+                "\\eoinok\\basictemplate\\BasicTemplateServiceProvider"
             ]
         }
     }
