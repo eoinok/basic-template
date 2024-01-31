@@ -17,9 +17,6 @@
             "email": "eokenned@gmail.com"
         }
     ],
-    "require": {
-        "php": ">=5.5.9"
-    },
     "autoload": {
         "psr-4": {
             "eoinok\\basictemplate\\": "src/"
@@ -31,5 +28,5 @@
                 "\\eoinok\\basictemplate\\BasicTemplateServiceProvider"
             ]
         }
-    }
+    }   
 }
